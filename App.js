@@ -47,10 +47,10 @@ export default function App() {
           height: Dimensions.get('window').height,
         }}
         initialRegion={{
-          latitude: latitude,
-          longitude: longitude,
-          latitudeDelta: 0.030,
-          longitudeDelta: 0.020,
+          latitude: 52,
+          longitude: 21,
+          latitudeDelta: 100,
+          longitudeDelta: 100,
         }}
       >
         {longitude != 0 ? <MapView.Marker
